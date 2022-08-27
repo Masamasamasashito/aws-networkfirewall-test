@@ -185,7 +185,7 @@ Resources:
     Type: AWS::EC2::SecurityGroup
     Properties:
       GroupDescription: "NetworkFirewallTest-InstanceSecurityGroup"
-      GroupName: "AllowAll"
+      GroupName: "NetworkFirewallTest-InstanceSecurityGroup"
       SecurityGroupEgress:
         - IpProtocol: tcp
           FromPort: '0'
